@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Find and Replace</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Find and Replace</h1>
+      <form id="replace-form">
+        <div class="form-group">
+          <label for="sentence"><p>Enter a sentence.</label>
+            <input id="sentence" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="chosen-word"><p>Choose a word.</label>
+            <input id="chosen-word" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="new-word"><p>What would you like to replace it with?</label>
+            <input id="new-word" type="text" class="form-control">
+        </div>
+
+        <button class="btn btn-success"><span class="glyphicon glyphicon-tree-conifer"></span>Switcharoo!</button>
+      </form>
+
+        <h1><span id="new-sentence"></span></h1>
+    </div>
+  </body>
+</html>
