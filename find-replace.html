@@ -9,25 +9,33 @@
   </head>
   <body>
     <div class="container">
-      <h1>Find and Replace</h1>
-      <form id="replace-form">
-        <div class="form-group">
-          <label for="sentence"><p>Enter a sentence.</label>
-            <input id="sentence" type="text" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="chosen-word"><p>Choose a word.</label>
-            <input id="chosen-word" type="text" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="new-word"><p>What would you like to replace it with?</label>
-            <input id="new-word" type="text" class="form-control">
+        <div class="col-md-5">
+          <h1>Find and Replace</h1>
+          <form id="replace-form">
+            <div class="form-group">
+              <label for="sentence"><p>Enter a sentence.</label>
+                <input id="sentence" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="chosen-word"><p>Choose a word.</label>
+                <input id="chosen-word" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="new-word"><p>What would you like to replace it with?</label>
+                <input id="new-word" type="text" class="form-control">
+            </div>
+
+            <button class="btn btn-success"><span class="glyphicon glyphicon-off"></span> Switcharoo!</button>
+          </form>
         </div>
 
-        <button class="btn btn-success"><span class="glyphicon glyphicon-tree-conifer"></span>Switcharoo!</button>
-      </form>
+        <div class="col-md-5">
+          <div id="result">
+              <h1>Here is your new sentence:</h1>
+              <p><span id="new-sentence"></span></p>
+          </div>
+        </div>
 
-        <h1><span id="new-sentence"></span></h1>
     </div>
   </body>
 </html>

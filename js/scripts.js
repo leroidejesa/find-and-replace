@@ -11,6 +11,8 @@ $(function() {
 
     $("#new-sentence").text(results);
 
+    $("#result").show();
+
     event.preventDefault();
   });
 });
