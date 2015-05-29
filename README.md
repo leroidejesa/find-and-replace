@@ -11,3 +11,8 @@ An app that lets users search a given sentence/string for a word and replace it 
 <h2>Usage</h2>
 
 Download repository and open find-replace.html in Chrome. Enter a sentence, a word to replace, and a replacement word into the respective fields on the form. An updated sentence will show upon submission.
+
+<h3>License</h3>
+MIT License.
+Copyright 2015 Leroi Dejesa
+
