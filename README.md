@@ -2,6 +2,7 @@
 *by Leroi Dejesa*
 
 Completed as an assignment at Epicodus Code School using Javascript, jQuery, HTML/CSS, Mocha, and Chai.
+
 See the curriculum here: http://www.epicodus.com
 
 <h2>Description</h2>
@@ -14,5 +15,6 @@ Download repository and open find-replace.html in Chrome. Enter a sentence, a wo
 
 <h3>License</h3>
 MIT License.
+
 Copyright 2015 Leroi Dejesa
 
